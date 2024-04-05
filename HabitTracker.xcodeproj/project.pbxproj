@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615F3C122BAB96CB00F9EBD4 /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615F3C112BAB96CB00F9EBD4 /* ColorPallete.swift */; };
 		617747302BA1F6A700A2A263 /* HabitTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177472F2BA1F6A700A2A263 /* HabitTrackerApp.swift */; };
 		617747322BA1F6A700A2A263 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617747312BA1F6A700A2A263 /* ContentView.swift */; };
 		617747342BA1F6A900A2A263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617747332BA1F6A900A2A263 /* Assets.xcassets */; };
 		617747372BA1F6A900A2A263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617747362BA1F6A900A2A263 /* Preview Assets.xcassets */; };
+		6177473E2BA1F9F400A2A263 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6177473D2BA1F9F400A2A263 /* Habit.swift */; };
+		617747422BA1FF4C00A2A263 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617747412BA1FF4C00A2A263 /* HabitView.swift */; };
+		618533542BA25A76004DDA06 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618533532BA25A76004DDA06 /* AddHabitView.swift */; };
+		618533562BA25C26004DDA06 /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618533552BA25C26004DDA06 /* Habits.swift */; };
+		618533582BA39ADE004DDA06 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618533572BA39ADE004DDA06 /* HabitDetailView.swift */; };
+		618C051D2BA8BCA1000BACD1 /* DateTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C051C2BA8BCA1000BACD1 /* DateTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		615F3C112BAB96CB00F9EBD4 /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
 		6177472C2BA1F6A700A2A263 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6177472F2BA1F6A700A2A263 /* HabitTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerApp.swift; sourceTree = "<group>"; };
 		617747312BA1F6A700A2A263 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		617747332BA1F6A900A2A263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		617747362BA1F6A900A2A263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6177473D2BA1F9F400A2A263 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		617747412BA1FF4C00A2A263 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		618533532BA25A76004DDA06 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		618533552BA25C26004DDA06 /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		618533572BA39ADE004DDA06 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		618C051C2BA8BCA1000BACD1 /* DateTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				6177472F2BA1F6A700A2A263 /* HabitTrackerApp.swift */,
 				617747312BA1F6A700A2A263 /* ContentView.swift */,
+				618533532BA25A76004DDA06 /* AddHabitView.swift */,
+				617747412BA1FF4C00A2A263 /* HabitView.swift */,
+				618533572BA39ADE004DDA06 /* HabitDetailView.swift */,
+				618533552BA25C26004DDA06 /* Habits.swift */,
+				6177473D2BA1F9F400A2A263 /* Habit.swift */,
+				618C051C2BA8BCA1000BACD1 /* DateTracker.swift */,
+				615F3C112BAB96CB00F9EBD4 /* ColorPallete.swift */,
 				617747332BA1F6A900A2A263 /* Assets.xcassets */,
 				617747352BA1F6A900A2A263 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615F3C122BAB96CB00F9EBD4 /* ColorPallete.swift in Sources */,
+				618533582BA39ADE004DDA06 /* HabitDetailView.swift in Sources */,
+				6177473E2BA1F9F400A2A263 /* Habit.swift in Sources */,
 				617747322BA1F6A700A2A263 /* ContentView.swift in Sources */,
 				617747302BA1F6A700A2A263 /* HabitTrackerApp.swift in Sources */,
+				617747422BA1FF4C00A2A263 /* HabitView.swift in Sources */,
+				618533542BA25A76004DDA06 /* AddHabitView.swift in Sources */,
+				618C051D2BA8BCA1000BACD1 /* DateTracker.swift in Sources */,
+				618533562BA25C26004DDA06 /* Habits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
