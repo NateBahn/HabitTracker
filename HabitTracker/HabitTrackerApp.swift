@@ -1,10 +1,4 @@
-//
-//  HabitTrackerApp.swift
-//  HabitTracker
-//
-//  Created by Marissa Almoslino on 3/13/24.
-//
-
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +7,6 @@ struct HabitTrackerApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Habit.self)
     }
 }
